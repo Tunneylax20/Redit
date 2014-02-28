@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/johnhinrichs/dev/redit/config/environment.rb": [
+      "/Users/drewtunney/dev/redit/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/johnhinrichs/dev/redit/config/application.rb": [
+      "/Users/drewtunney/dev/redit/config/application.rb": [
         1,
         null,
         1,
@@ -33,13 +33,13 @@
         null,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/config/boot.rb": [
+      "/Users/drewtunney/dev/redit/config/boot.rb": [
         null,
         1,
         null,
         1
       ],
-      "/Users/johnhinrichs/dev/redit/config/environments/test.rb": [
+      "/Users/drewtunney/dev/redit/config/environments/test.rb": [
         1,
         null,
         null,
@@ -77,7 +77,7 @@
         1,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/config/initializers/backtrace_silencers.rb": [
+      "/Users/drewtunney/dev/redit/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -86,13 +86,13 @@
         null,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/config/initializers/filter_parameter_logging.rb": [
+      "/Users/drewtunney/dev/redit/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/johnhinrichs/dev/redit/config/initializers/inflections.rb": [
+      "/Users/drewtunney/dev/redit/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -110,14 +110,14 @@
         null,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/config/initializers/mime_types.rb": [
+      "/Users/drewtunney/dev/redit/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/config/initializers/secret_token.rb": [
+      "/Users/drewtunney/dev/redit/config/initializers/secret_token.rb": [
         null,
         null,
         null,
@@ -131,12 +131,12 @@
         null,
         1
       ],
-      "/Users/johnhinrichs/dev/redit/config/initializers/session_store.rb": [
+      "/Users/drewtunney/dev/redit/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/johnhinrichs/dev/redit/config/initializers/wrap_parameters.rb": [
+      "/Users/drewtunney/dev/redit/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -152,43 +152,46 @@
         null,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/spec/factories/user.rb": [
+      "/Users/drewtunney/dev/redit/spec/factories/user.rb": [
         1,
+        1,
+        3,
+        3,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/drewtunney/dev/redit/config/routes.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/drewtunney/dev/redit/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/drewtunney/dev/redit/spec/models/user_spec.rb": [
+        1,
+        null,
         1,
         2,
         2,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/johnhinrichs/dev/redit/config/routes.rb": [
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/johnhinrichs/dev/redit/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/johnhinrichs/dev/redit/spec/models/user_spec.rb": [
-        1,
-        null,
-        1,
-        2,
-        2,
         null,
         2,
         2,
         null,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/app/models/user.rb": [
+      "/Users/drewtunney/dev/redit/app/models/user.rb": [
         1,
         1,
         1,
@@ -196,7 +199,7 @@
         1,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/app/controllers/articles_controller.rb": [
+      "/Users/drewtunney/dev/redit/app/controllers/articles_controller.rb": [
         1,
         null,
         1,
@@ -204,14 +207,14 @@
         null,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/app/controllers/application_controller.rb": [
+      "/Users/drewtunney/dev/redit/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/johnhinrichs/dev/redit/app/controllers/users_controller.rb": [
+      "/Users/drewtunney/dev/redit/app/controllers/users_controller.rb": [
         1,
         null,
         1,
@@ -228,6 +231,44 @@
         1,
         null,
         null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/drewtunney/dev/redit/app/controllers/session_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
         1,
         1,
         null,
@@ -235,6 +276,6 @@
         null
       ]
     },
-    "timestamp": 1393608344
+    "timestamp": 1393615940
   }
 }

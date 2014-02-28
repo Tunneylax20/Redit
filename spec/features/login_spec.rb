@@ -30,11 +30,10 @@ describe "user can log in and log out" do
     expect(page).to have_content user.username
 
     click_link "Log Out"
-    expect page.to have_content "Sign In"
-    expect page.to have_content "Add Article"
+    expect(page).to have_content "Sign In"
+    expect(page).to have_content "Add Article"
     
   end
-
 
   
   
