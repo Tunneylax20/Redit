@@ -3,6 +3,7 @@ class ArticlesController < ApplicationController
   before_action :load_user, only: [:new, :create]
 
   def index
+    @articles = Article.all
   end
 
   def new
