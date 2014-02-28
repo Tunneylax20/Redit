@@ -2,10 +2,13 @@ Redit::Application.routes.draw do
 
   # get "/", to: "articles#index"
   root "articles#index"
+  
   get "/login", to: "session#new"
   post "/session", to: "session#create"
   delete "/session", to: "session#destroy"
 
-  resources :users, only: [:new, :create, :show]
+  resources :users, only: [:new, :create, :show] do
+    resources :articles, only: [:new, :create]
+  end
 
 end

@@ -31,7 +31,7 @@ describe "user can log in and log out" do
 
     click_link "Log Out"
     expect(page).to have_content "Sign In"
-    expect(page).to have_content "Add Article"
+    expect(page).to have_content "Welcome"
     
   end
 

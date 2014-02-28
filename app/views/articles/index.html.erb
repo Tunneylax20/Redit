@@ -1,2 +1,5 @@
-<button>Add Article</button>
+<h1>Welcome to Red.it!</h1>
 
+<% if logged_in? %>
+  <%= link_to "Add Article", new_user_article_path(current_user) %>
+<% end %>
