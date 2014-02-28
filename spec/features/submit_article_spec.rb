@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe "a user can submit an article" do 
-  let(:article) { FactoryGirl.build(:article) }
-  # let(:article) { Article.new(url: "http://www.google.com") }
+  # let(:article) { FactoryGirl.build(:article) }
+  let(:article) { Article.new(url: "http://www.google.com") }
   let(:user) { FactoryGirl.create(:user) }
 
   it "a user can submit an article" do
